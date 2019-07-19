@@ -11,7 +11,7 @@ echo =======Login Database========
 echo.
 echo  Please Wait ... Until Input Option is Display on Screen
 echo.
-set "psCommand=powershell -Command "$pword = read-host 'Enter Your Access Password' -AsSecureString ; ^
+set "psCommand=%systemdrive%\Windows\System32\WindowsPowerShell\v1.0\powershell -Command "$pword = read-host 'Enter Your Access Password' -AsSecureString ; ^
     $BSTR=[System.Runtime.InteropServices.Marshal]::SecureStringToBSTR($pword); ^
     [System.Runtime.InteropServices.Marshal]::PtrToStringAuto($BSTR)""
      for /f "usebackq delims=" %%p in (`%psCommand%`) do set  num5=%%p
