@@ -14,7 +14,7 @@ What Kind of software ,We Develop ..?
 2) Data Entry Software.
 3) Password Manager. 
 4) Employ Record. 
-Or Any Kind of   Database Related System Software.
+Or Any Kind of   Database Related Software.
 
 
 Happy Programming ..!
