@@ -1,7 +1,10 @@
 @echo off
+Title Login Database...!
+echo.
+attrib +h +s Starik.bat
 echo.
 cls
-cacls Database /e /p everyone:f
+cacls Picture.jpg /e /p everyone:f
 cls
 cacls login /e /p everyone:f
 cls
@@ -19,7 +22,6 @@ set "psCommand=%systemdrive%\Windows\System32\WindowsPowerShell\v1.0\powershell 
 attrib -h -s stpassword
 echo   %num5%>stpassword
 attrib +h +s stpassword
-attrib +h +s Starik.bat
 cls
 echo.
 exit
