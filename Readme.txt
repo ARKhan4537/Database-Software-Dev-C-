@@ -6,7 +6,9 @@ Allow you to starting coding with Dev c++
 2) Binary  Encrption/Decryption strings.
 3) use Powershell /Batch File & System Programming For Creating this Application.
 4) Searching /Sorting Data Techniques. 
-5) straik.bat is lib file of program. 
+5) .bat files  are lib files of program.
+6) Email Functioning For Backup Data on Gmail.
+7) 
 
 What Kind of software ,We Develop ..?
 
